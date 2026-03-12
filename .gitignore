@@ -9,6 +9,12 @@ __pycache__/
 *.csv
 *.zip
 *.json
+# Ignore the large dataset
+NLP/IMDB Dataset.csv
+*.csv
+
+# Ignore secrets
+.env
 
 # Ignore secrets and environment variables
 .env
