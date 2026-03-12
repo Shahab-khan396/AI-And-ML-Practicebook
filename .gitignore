@@ -5,6 +5,17 @@ __pycache__/
 
 # C extensions
 *.so
+# Ignore large datasets
+*.csv
+*.zip
+*.json
+
+# Ignore secrets and environment variables
+.env
+secret_keys.txt
+
+# Ignore Jupyter Notebook checkpoints and large outputs
+.ipynb_checkpoints/
 
 # Distribution / packaging
 .Python
